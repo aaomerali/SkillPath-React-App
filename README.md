@@ -16,3 +16,8 @@ SkillPath is your go-to app for charting a clear path to mastering any skill. Si
 ## Install dependencies
 
  - npm install
+
+
+## Links
+
+ - Demo: https://skillpathapp.netlify.app/
