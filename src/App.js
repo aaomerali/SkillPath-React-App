@@ -19,7 +19,7 @@ function App() {
 
     try {
 
-      const genAi = new GoogleGenerativeAI(process.env.REACT_APP_API_KEY)
+      const genAi = new GoogleGenerativeAI("AIzaSyAPZfCIZnLqUB5toqkl4dO08PiQOD9NOoc")
       const model = genAi.getGenerativeModel({model : 'gemini-1.5-flash'})
 
       const prompt= `write a proffissonal roadmap to learn ${skill} skill and make it as apoints without details , also use emojies`
